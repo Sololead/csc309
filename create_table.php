@@ -18,6 +18,8 @@
         id INT AUTO_INCREMENT PRIMARY KEY,
         firstname VARCHAR(30) NOT NULL,
         lastname VARCHAR(30) NOT NULL,
+        gender VARCHAR(5) NOT NULL,
+        date_of_birth VARCHAR(30),
         email VARCHAR(50) NOT NULL UNIQUE
     )';
 
